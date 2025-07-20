@@ -1,62 +1,36 @@
-{
-  "Single-View Plots": {
-    "Bar Charts": [
-      {
-        "name": "bar",
-        "title": "Simple Bar Chart",
-        "description": "A bar chart encodes quantitative values as the extent of rectangular bars.",
-        "style": "background-size: auto 105%; background-position: center center !important;"
-      },
-      {
-        "name": "bar_size_responsive",
-        "title": "Responsive Bar Chart",
-        "description": "The bar gets automatically resized based on container size. To see how the bar gets automatically resized try this in [the editor](https://vega.github.io/editor/#/examples/vega-lite/bar_size_responsive)."
-      },
-      {
-        "name": "bar_aggregate",
-        "title": "Aggregate Bar Chart"
-      },
-      {
-        "name": "bar_aggregate_sort_by_encoding",
-        "title": "Aggregate Bar Chart (Sorted)"
-      },
-      {
-        "name": "bar_grouped",
-        "title": "Grouped Bar Chart",
-        "description": "Read [here](https://vega.github.io/vega-lite/docs/size.html#offset-step) for more details about how to set step size for grouped bar. "
-      },
-      {
-        "name": "bar_grouped_repeated",
-        "title": "Grouped Bar Chart (Multiple Measure with Repeat)",
-        "description": "Read [here](https://vega.github.io/vega-lite/docs/size.html#offset-step) for more details about how to set step size for grouped bar. "
-      },
-      {
-        "name": "stacked_bar_weather",
-        "title": "Stacked Bar Chart"
-      },
-      {
-        "name": "stacked_bar_count_corner_radius_mark",
-        "title": "Stacked Bar Chart with Rounded Corners"
-      },
-      {
-        "name": "stacked_bar_h",
-        "title": "Horizontal Stacked Bar Chart"
-      },
-      {
-        "name": "stacked_bar_normalize",
-        "title": "Normalized (Percentage) Stacked Bar Chart"
-      },
-      {
-        "name": "stacked_bar_h_normalized_labeled",
-        "title": "Normalized (Percentage) Stacked Bar Chart With Labels"
-      },
-      {
-        "name": "bar_gantt",
-        "title": "Gantt Chart (Ranged Bar Marks)",
-        "style": "background-size: auto 75%; background-position-y: center !important;"
-      },
-      {
-        "name": "bar_color_disabled_scale",
+[
+  {"day": 1, "calories_in": 2177.4, "calories_out": 2582.3, "weight": 75.00},
+  {"day": 2, "calories_in": 2176.2, "calories_out": 2670.2, "weight": 74.93},
+  {"day": 3, "calories_in": 2184.8, "calories_out": 2344.2, "weight": 74.86},
+  {"day": 4, "calories_in": 2246.4, "calories_out": 2356.4, "weight": 74.79},
+  {"day": 5, "calories_in": 2243.5, "calories_out": 2407.7, "weight": 74.72},
+  {"day": 6, "calories_in": 2279.4, "calories_out": 2487.1, "weight": 74.65},
+  {"day": 7, "calories_in": 2046.3, "calories_out": 2677.5, "weight": 74.58},
+  {"day": 8, "calories_in": 2248.4, "calories_out": 2601.9, "weight": 74.51},
+  {"day": 9, "calories_in": 2063.7, "calories_out": 2284.5, "weight": 74.44},
+  {"day": 10, "calories_in": 2097.5, "calories_out": 2843.1, "weight": 74.37},
+  {"day": 11, "calories_in": 2320.9, "calories_out": 2537.8, "weight": 74.30},
+  {"day": 12, "calories_in": 2082.1, "calories_out": 2450.3, "weight": 74.23},
+  {"day": 13, "calories_in": 2064.9, "calories_out": 2675.5, "weight": 74.16},
+  {"day": 14, "calories_in": 2112.8, "calories_out": 2270.1, "weight": 74.09},
+  {"day": 15, "calories_in": 2313.4, "calories_out": 2702.9, "weight": 74.02},
+  {"day": 16, "calories_in": 2140.6, "calories_out": 2725.6, "weight": 73.95},
+  {"day": 17, "calories_in": 1936.7, "calories_out": 2123.4, "weight": 73.88},
+  {"day": 18, "calories_in": 1899.5, "calories_out": 2924.3, "weight": 73.81},
+  {"day": 19, "calories_in": 2272.8, "calories_out": 2536.1, "weight": 73.74},
+  {"day": 20, "calories_in": 2210.1, "calories_out": 2542.6, "weight": 73.67},
+  {"day": 21, "calories_in": 2252.1, "calories_out": 2230.5, "weight": 73.60},
+  {"day": 22, "calories_in": 2080.6, "calories_out": 2995.5, "weight": 73.53},
+  {"day": 23, "calories_in": 2123.3, "calories_out": 2666.8, "weight": 73.46},
+  {"day": 24, "calories_in": 2021.9, "calories_out": 2375.7, "weight": 73.39},
+  {"day": 25, "calories_in": 2124.1, "calories_out": 2371.4, "weight": 73.32},
+  {"day": 26, "calories_in": 1715.6, "calories_out": 1843.9, "weight": 73.25},
+  {"day": 27, "calories_in": 1893.5, "calories_out": 2782.3, "weight": 73.18},
+  {"day": 28, "calories_in": 2005.1, "calories_out": 2548.6, "weight": 73.11},
+  {"day": 29, "calories_in": 2034.7, "calories_out": 2551.4, "weight": 73.04},
+  {"day": 30, "calories_in": 1923.3, "calories_out": 2730.1, "weight": 72.97},
+  {"day": 31, "calories_in": 1928.9, "calories_out": 2462.0, "weight": 73.00}
+]bar_color_disabled_scale",
         "title": "A Bar Chart Encoding Color Names in the Data"
       },
       {
